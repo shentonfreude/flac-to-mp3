@@ -35,8 +35,12 @@ act the way I want, the way described above. Yet.
 Requirements
 ============
 
-The script is in Python and it uses the `lame` and `flac` binaries to
-transcode.
+The script is in Python and it uses the binaries:
+
+ * `flac`: decode flac files
+ * `lame`: encode mp3 file
+ * `metaflac`: pulling metadata from flac file like Artist, Album, Title
+ * `id3v2`: save metadata to mp3 file
 
 Command Line
 ============
